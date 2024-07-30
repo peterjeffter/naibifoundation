@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 170px;
+}
+.complogo{
+    width: 100px;
+}
+.navigation{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.herosec{
+    height: 280px;
+    background-color: rgb(5, 47, 5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutus{
+    font-size: 25px;
+}
+.programs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.progs{
+    width: 350px;
+    border: solid 0.5px black;
+    
+}
+.proghead{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(10, 73, 10);
+    margin: 0;
+}
+.description{
+    height: 80px;
+    margin: 0;
+    background-color: rgb(107, 173, 107);
+    
+    padding-bottom: 0;
+}
